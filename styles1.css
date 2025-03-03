@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 350px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 48px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    background-color: #0095f6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.divider {
+    margin: 20px 0;
+}
+
+.divider span {
+    color: #8e8e8e;
+}
+
+.fb-login {
+    color: #385185;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #00376b;
+    text-decoration: none;
+}
+
+.signup {
+    margin: 20px 0;
+}
+
+.app-download {
+    margin-top: 20px;
+}
+
+.container2 {
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    /*flex-direction: column;
+    position: absolute;*/
+
+}
+
+.container2 a {
+    margin-right: 20px;
+    margin-left: 50px;
+
+}
+
+.fb-login a:hover {
+    color: #53ddeb;
+    text-decoration: none;
+
+
+}
